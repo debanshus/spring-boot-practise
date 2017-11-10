@@ -2,9 +2,7 @@ package com.debanshu.practice.services;
 
 import com.debanshu.practice.models.Account;
 import java.util.List;
-import org.springframework.stereotype.Service;
 
-@Service
 public interface AccountService {
 
     public boolean checkEmail(String email);
